@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="532.746769">
+    <testcase classname="Click the Page" name="Home page click and Lanunch" time="56.93472">
+        <system-out><![CDATA[Given open the Browser and maximize the window..............................passed
+When User navigate to the Given URl.........................................passed
+And User click the Spline & Pain logo.......................................passed
+Then Should open the new Webpage With Details...............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Click the Page" name="User should see all menu items" time="122.193087">
+        <system-out><![CDATA[Given open the Browser and maximize the window..............................passed
+When User looks at the menu bar.............................................passed
+And User navigate the menus.................................................passed
+Then User should see click all menus........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Click the Page" name="User Should Navigate the Spine and pain logo" time="90.478877">
+        <system-out><![CDATA[Given open the Browser and maximize the window..............................passed
+When User click the spine and pain logo.....................................passed
+And User enter the zip code.................................................passed
+And User should click the search and go.....................................passed
+Then User should navigate to new page.......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Click the Page" name="Location Search" time="141.237466">
+        <system-out><![CDATA[Given open the Browser and maximize the window..............................passed
+When The user navigate the Find Location....................................passed
+And The user enters "20105" and "VA" and "Aldie"............................passed
+Then The user should be see the location details displayed..................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Click the Page" name="Location Search 2" time="63.979742">
+        <system-out><![CDATA[Given open the Browser and maximize the window..............................passed
+When The user navigate the Find Location....................................passed
+And The user enters "20695" and "MD" and "White Plains".....................passed
+Then The user should be see the location details displayed..................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Click the Page" name="Location Search 3" time="57.922877">
+        <system-out><![CDATA[Given open the Browser and maximize the window..............................passed
+When The user navigate the Find Location....................................passed
+And The user enters "invalid" and "invalid" and "invalid"...................passed
+Then The user should be see the location details displayed..................passed
+]]></system-out>
+    </testcase>
+</testsuite>

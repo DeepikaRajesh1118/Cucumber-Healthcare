@@ -1,0 +1,505 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 43186404499,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "open the Browser and maximize the window",
+            "match": {
+              "location": "StepDefinitionClass.open_the_Browser_and_maximize_the_window()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-04-17T14:56:32.141Z",
+        "line": 6,
+        "name": "Home page click and Lanunch",
+        "description": "",
+        "id": "click-the-page;home-page-click-and-lanunch",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 43208201,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigate to the Given URl",
+            "match": {
+              "location": "StepDefinitionClass.user_navigate_to_the_Given_URl()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7264381001,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click the Spline \u0026 Pain logo",
+            "match": {
+              "location": "StepDefinitionClass.user_click_the_Spline_Pain_logo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6203731300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Should open the new Webpage With Details",
+            "match": {
+              "location": "StepDefinitionClass.should_open_the_new_Webpage_With_Details()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test1"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 51136545700,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "open the Browser and maximize the window",
+            "match": {
+              "location": "StepDefinitionClass.open_the_Browser_and_maximize_the_window()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-04-17T14:57:29.109Z",
+        "line": 11,
+        "name": "User should see all menu items",
+        "description": "",
+        "id": "click-the-page;user-should-see-all-menu-items",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3970370300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User looks at the menu bar",
+            "match": {
+              "location": "StepMenuFunctionality.user_looks_at_the_menu_bar()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 60734108500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User navigate the menus",
+            "match": {
+              "location": "StepMenuFunctionality.user_navigate_the_menus()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6341531501,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User should see click all menus",
+            "match": {
+              "location": "StepMenuFunctionality.user_should_see_click_all_menus()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test2"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 52527361201,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "open the Browser and maximize the window",
+            "match": {
+              "location": "StepDefinitionClass.open_the_Browser_and_maximize_the_window()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-04-17T14:59:31.306Z",
+        "line": 16,
+        "name": "User Should Navigate the Spine and pain logo",
+        "description": "",
+        "id": "click-the-page;user-should-navigate-the-spine-and-pain-logo",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4332230400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User click the spine and pain logo",
+            "match": {
+              "location": "StepActionsFunctionality.user_click_the_spine_and_pain_logo()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 820919999,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User enter the zip code",
+            "match": {
+              "location": "StepActionsFunctionality.user_enter_the_zip_code()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24849690500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User should click the search and go",
+            "match": {
+              "location": "StepActionsFunctionality.user_should_click_the_search_and_go()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7940162200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User should navigate to new page",
+            "match": {
+              "location": "StepActionsFunctionality.user_should_navigate_to_new_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test3"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 105188664500,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "open the Browser and maximize the window",
+            "match": {
+              "location": "StepDefinitionClass.open_the_Browser_and_maximize_the_window()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-04-17T15:01:01.788Z",
+        "line": 30,
+        "name": "Location Search",
+        "description": "",
+        "id": "click-the-page;location-search;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 23642532101,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "The user navigate the Find Location",
+            "match": {
+              "location": "StepScenarioOutline.the_user_navigate_the_Find_Location()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7703195900,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "The user enters \"20105\" and \"VA\" and \"Aldie\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"20105\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"VA\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"Aldie\"",
+                  "offset": 37
+                }
+              ],
+              "location": "StepScenarioOutline.the_user_enters_and_and(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4672332801,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "The user should be see the location details displayed",
+            "match": {
+              "location": "StepScenarioOutline.the_user_should_be_see_the_location_details_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test4"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 33906940300,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "open the Browser and maximize the window",
+            "match": {
+              "location": "StepDefinitionClass.open_the_Browser_and_maximize_the_window()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-04-17T15:03:23.031Z",
+        "line": 31,
+        "name": "Location Search",
+        "description": "",
+        "id": "click-the-page;location-search;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14739527700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "The user navigate the Find Location",
+            "match": {
+              "location": "StepScenarioOutline.the_user_navigate_the_Find_Location()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9182991800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "The user enters \"20695\" and \"MD\" and \"White Plains\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"20695\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"MD\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"White Plains\"",
+                  "offset": 37
+                }
+              ],
+              "location": "StepScenarioOutline.the_user_enters_and_and(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6130571999,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "The user should be see the location details displayed",
+            "match": {
+              "location": "StepScenarioOutline.the_user_should_be_see_the_location_details_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test4"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 32194969300,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "open the Browser and maximize the window",
+            "match": {
+              "location": "StepDefinitionClass.open_the_Browser_and_maximize_the_window()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-04-17T15:04:27.018Z",
+        "line": 32,
+        "name": "Location Search",
+        "description": "",
+        "id": "click-the-page;location-search;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13935312999,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "The user navigate the Find Location",
+            "match": {
+              "location": "StepScenarioOutline.the_user_navigate_the_Find_Location()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8180927900,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "The user enters \"invalid\" and \"invalid\" and \"invalid\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"invalid\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"invalid\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"invalid\"",
+                  "offset": 44
+                }
+              ],
+              "location": "StepScenarioOutline.the_user_enters_and_and(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3599328200,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "The user should be see the location details displayed",
+            "match": {
+              "location": "StepScenarioOutline.the_user_should_be_see_the_location_details_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test4"
+          }
+        ]
+      }
+    ],
+    "name": "Click the Page",
+    "description": "",
+    "id": "click-the-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/health1.feature",
+    "tags": []
+  }
+]
